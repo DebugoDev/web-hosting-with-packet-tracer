@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Banquete Pirata</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<header class="topo">
+    <h1>Sanji's Kitchen</h1>
+    <p>Calculadora de Banquete Pirata</p>
+</header>
+
+<nav class="menu">
+    <a href="index.html">Início</a>
+    <a href="receitas.html">Receitas</a>
+    <a href="allblue.html">All Blue</a>
+    <a href="baratie.html">Baratie</a>
+    <a href="nami.html">Sobremesa</a>
+</nav>
+
+<main class="container">
+
+<section class="receita">
+    <h2>Calculadora de Churrasco do Grand Line</h2>
+
+    <p class="descricao">
+        Informe quantos piratas participarão do banquete e descubra a quantidade
+        ideal de carnes e acompanhamentos para ninguém sair com fome.
+    </p>
+
+    <div class="info">
+        <p><b>Carne de Monstro Marinho:</b> Carne bovina</p>
+        <p><b>Ave Gigante de Skypiea:</b> Frango</p>
+        <p><b>Salsichão do Baratie:</b> Linguiça</p>
+        <p><b>Pão de Alho dos Chapéus de Palha:</b> Pão de alho</p>
+        <p><b>Bebida Gelada do Thousand Sunny:</b> Refrigerante</p>
+    </div>
+
+    <h3>Quantidade de pessoas</h3>
+
+    <input type="number" id="pessoasChurrasco" placeholder="Número de pessoas">
+
+    <button onclick="calcularChurrasco()">Calcular Banquete</button>
+
+    <div id="resultadoChurrasco" class="dica"></div>
+</section>
+
+</main>
+
+<footer>
+    Projeto Integrador - Sanji's Kitchen
+</footer>
+
+</body>
+</html>

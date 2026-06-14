@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4eadc;
+    color: #1f1f1f;
+}
+
+.topo {
+    background-color: #101820;
+    color: white;
+    text-align: center;
+    padding: 28px 10px;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.topo p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.menu {
+    background-color: #df9228;
+    text-align: center;
+    padding: 14px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 14px;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 82%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+.grid {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+    min-width: 260px;
+    vertical-align: top;
+    text-align: left;
+    margin: 12px;
+    padding: 16px;
+    border: 1px solid #d6c3aa;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.foto-card {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border: 3px solid #df9228;
+    box-sizing: border-box;
+}
+
+.receita {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #d6c3aa;
+    max-width: 850px;
+    margin: auto;
+}
+
+.receita h2 {
+    font-size: 30px;
+    border-bottom: 3px solid #df9228;
+    padding-bottom: 10px;
+}
+
+.foto-receita {
+    width: 100%;
+    max-width: 720px;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+    margin: 18px auto;
+    border: 3px solid #df9228;
+}
+
+.descricao {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.info {
+    background-color: #fff3d8;
+    border-left: 6px solid #df9228;
+    padding: 12px;
+    margin: 18px 0;
+}
+
+.info p {
+    margin: 6px;
+}
+
+ul, ol {
+    line-height: 1.7;
+}
+
+.dica {
+    background-color: #eef6ff;
+    border-left: 6px solid #1f4e79;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.botao, button {
+    background-color: #101820;
+    color: white;
+    padding: 9px 13px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.botao:hover, button:hover {
+    background-color: #26384a;
+}
+
+footer {
+    background-color: #101820;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 35px;
+}
