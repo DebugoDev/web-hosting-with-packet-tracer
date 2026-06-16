@@ -1,24 +1,51 @@
-# Web Hosting with Packet Tracer
+# Projeto Integrador - Minha Página na Rede
 
-A web hosting project developed with HTML, CSS, and JavaScript, deployed on a simulated network infrastructure using Cisco Packet Tracer.
+## Integrantes
+- Adrian Gobara Falci
+- Lorena Gobara Falci
+- Nilton Prudêncio Oliveria de Meira
 
-## Overview
+## Tema do Projeto
+Um site temático inspirado no personagem Sanji, da obra japonesa One Piece, apresentando receitas culinárias fictícias baseadas no universo da série.
 
-This project was created as part of an assignment for a Computer Networks course.
 
-The goal is to develop a simple interactive website and host it on a web server within a simulated network environment built with Cisco Packet Tracer.
+## Objetivo
+Desenvolver uma página web integrada a uma infraestrutura de rede simulada no Cisco Packet Tracer.
 
-## Technologies
-
+## Tecnologias Utilizadas
 - HTML5
 - CSS3
 - JavaScript
 - Cisco Packet Tracer
 
-## Authors
+## Estrutura da Rede
+- LAN Clientes: 192.168.1.0/24
+- Rede interligação entre os roteadores: 172.16.0.0/30
+- Rede Servidor: 10.0.0.0/24
 
-Adrian Gobara Falci, Lorena Gobara Falci, and Nilton Prudêncio Oliveira de Meira
+## Funcionalidades JavaScript
+- Escolha Aleatória de Personagens
+- Calculadora de Porções
+- Calculadora de Banquete Pirata
 
-## License
 
-This project was created for educational purposes.
+## Acesso à Página
+
+### GitHub Pages
+https://grupo1.github.io/projeto/
+
+## Arquivos Importantes
+
+### Packet Tracer
+packet-tracer/rede.pkt
+
+### Relatório
+relatórios/Minha Página na Rede!.pdf
+
+## Evidências
+
+### Topologia da Rede
+packet-tracer/screenshots/Topologia no Packet Tracer.png
+
+### Acesso via DNS
+packet-tracer/screenshots/Acesso ao site pelo domínio www.sanjikitchen.com.png
