@@ -32,7 +32,7 @@ Desenvolver uma página web integrada a uma infraestrutura de rede simulada no C
 ## Acesso à Página
 
 ### GitHub Pages
-https://grupo1.github.io/projeto/
+https://debugodev.github.io/web-hosting-with-packet-tracer/
 
 ## Arquivos Importantes
 
